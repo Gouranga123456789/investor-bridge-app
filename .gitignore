@@ -1,0 +1,17 @@
+# Node.js dependencies
+# These folders are huge and can be re-installed by anyone
+/backend/node_modules
+/frontend/node_modules
+
+# Environment files
+# THIS IS THE MOST IMPORTANT LINE
+# It protects your secret passwords and API keys
+/backend/.env
+
+# Vite build output and cache
+/frontend/dist
+/frontend/.vite
+
+# Operating System files
+.DS_Store
+Thumbs.db

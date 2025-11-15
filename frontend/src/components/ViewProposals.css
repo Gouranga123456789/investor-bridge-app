@@ -1,0 +1,102 @@
+.proposals-container {
+  width: 100%;
+}
+
+.proposals-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.proposals-container p {
+  text-align: center;
+  color: var(--text-color-light);
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.loading-spinner {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 3rem;
+}
+
+.proposals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.proposal-card {
+  background: var(--content-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.proposal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.proposal-card h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin: 0 0 0.5rem 0;
+}
+
+.card-industry {
+  background: var(--content-bg-light);
+  color: var(--text-color-light);
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  flex-grow: 1;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.card-footer {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.card-funding {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--success-color);
+}
+
+.card-contact {
+  color: var(--text-color-light);
+}
+
+.btn-view-details {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+.btn-view-details:hover {
+  background-color: var(--primary-color-hover);
+}

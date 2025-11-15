@@ -1,0 +1,118 @@
+:root {
+  --primary-color: #646cff;
+  --primary-color-hover: #535bf2;
+  --dark-bg: #1a1a1a;
+  --content-bg: #242424;
+  --content-bg-light: #2f2f2f;
+  --text-color: #f0f0f0;
+  --text-color-light: #c7c7c7;
+  --border-color: #444;
+  --success-color: #4caf50;
+  --error-color: #f44336;
+  --success-bg: #e9f5e9;
+  --error-bg: #fdeeee;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: var(--dark-bg);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--primary-color-hover);
+}
+
+.form-container {
+  background: var(--content-bg);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-color-light);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  background: var(--content-bg-light);
+  color: var(--text-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.85rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.message {
+  padding: 0.75rem;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.message-success {
+  color: #155724;
+  background-color: var(--success-bg);
+  border: 1px solid var(--success-color);
+}
+.message-error {
+  color: #721c24;
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-color);
+}
