@@ -9,11 +9,11 @@ A full-stack web application designed to bridge the communication gap between en
 ## 🚀 Key Features
 
 * **Role-Based Access:** Secure registration and login for 5 distinct roles:
-    * [cite_start]**Business People:** Post business ideas and proposals[cite: 22, 24].
-    * [cite_start]**Investors:** Browse business proposals and post investment offers[cite: 25, 27, 28].
-    * [cite_start]**Bankers:** Post details about available loans and financial schemes[cite: 29, 30].
-    * [cite_start]**Advisors:** Post informational articles and answer user queries[cite: 31, 33, 35].
-    * [cite_start]**General Users:** Browse business categories[cite: 21].
+    * **Business People:** Post business ideas and proposals.
+    * **Investors:** Browse business proposals and post investment offers.
+    * **Bankers:** Post details about available loans and financial schemes.
+    * **Advisors:** Post informational articles and answer user queries.
+    * **General Users:** Browse business categories.
 * **Secure Authentication:** Implementation of **JWT (JSON Web Tokens)** and **bcrypt** for secure password hashing.
 * **Interactive Dashboards:** Dynamic user interfaces that change based on the logged-in user's role.
 * **Relational Database:** Robust **PostgreSQL** database to manage complex relationships between users, proposals, and loans.
@@ -40,7 +40,7 @@ Before running the project, ensure you have the following installed:
 
 ## 🛠️ Database Setup (Crucial Step)
 
-1.  Open your PostgreSQL shell (`psql`) or a tool like DBeaver.
+1.  Open your PostgreSQL shell (`psql`).
 2.  Create the database:
     ```sql
     CREATE DATABASE investor_bridge;
@@ -139,7 +139,7 @@ Before running the project, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/Gouranga123456789/investor-bridge-app
     cd investor-bridge-app
     ```
 
@@ -208,7 +208,3 @@ There are two ways to run this project. **Method 1 is recommended for submission
     ```
 3.  **Access the App:**
     Open your browser and go to: **`http://localhost:5173`**
-
----
-
-## 📂 Project Structure
