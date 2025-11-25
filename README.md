@@ -173,11 +173,6 @@ Before running the project, ensure you have the following installed:
 
 ## ▶️ How to Run the Project
 
-There are two ways to run this project. **Method 1 is recommended for submission/review.**
-
-### Method 1: Production Mode (Recommended for Review)
-*Use this method to avoid "404 Not Found" errors.*
-
 1.  **Build the Frontend:**
     Navigate to the `frontend` folder and run the build command. This compiles React into static files.
     ```bash
@@ -192,19 +187,3 @@ There are two ways to run this project. **Method 1 is recommended for submission
     ```
 3.  **Access the App:**
     Open your browser and go to: **`http://localhost:5000`**
-
-### Method 2: Development Mode (For Coding)
-*Use this method if you want to edit the code.*
-
-1.  **Terminal 1 (Backend):**
-    ```bash
-    cd backend
-    npm start
-    ```
-2.  **Terminal 2 (Frontend):**
-    ```bash
-    cd frontend
-    npm run dev
-    ```
-3.  **Access the App:**
-    Open your browser and go to: **`http://localhost:5173`**
